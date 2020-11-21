@@ -49,7 +49,8 @@ const App = () => {
       <SearchBar />
       <Post />
       <Posts 
-        posts={posts} 
+        post={posts}
+        likePost={likePost} 
       />
 
       {/* Check the implementation of each component, to see what props they require, if any! */}
